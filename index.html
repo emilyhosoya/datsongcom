@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<!-- Title -->
+<title>datSong - a multiplayer music challenge for iOS and Android</title>
+<!--  Meta  -->
+<meta name="description" content="datSong - a most delightful music app">
+<meta name="author" content="datSong Team">
+<!-- viewport for mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<link href='http://fonts.googleapis.com/css?family=Orbitron:400,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/prettyPhoto.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--  IE8 fixes -->
+<!--[if IE 8]>
+  <link rel="stylesheet" href="css/ie8.css">
+<![endif]-->
+
+<!-- favicon -->
+<link rel="shortcut icon" href="images/ds.ico">
+
+</head>
+
+
+<body>
+
+<!-- fancybox login form -->
+<div style="display:none">
+  <form id="login_form" method="post" action="">
+        <p id="login_error">Login to datSong</p>
+    <p>
+      <label for="login_name">Email: </label>
+      <input type="text" id="login_name" name="login_name" size="30" />
+    </p>
+    <p>
+      <label for="login_pass">Password: </label>
+      <input type="password" id="login_pass" name="login_pass" size="30" />
+    </p>
+    <p>
+      <input type="submit" value="Login" />
+    </p>
+    <p>
+        <em></em>
+    </p>
+  </form>
+</div>
+
+<!-- BEGIN HEADER -->
+<header id="header">
+
+  <a id="loginLink" title="Login" href="#login_form" style="color:white;position:absolute;left:10px;top:5px">Login</a>
+
+    <div class="container">
+      <div class="row">
+      
+      <!-- BEGIN SLIDER CONTAINER -->
+        <div id="slider-container">
+         
+          <div class="span6 animated fadeInUp rotateInUpLeft delay2s">
+            <!-- BEGIN IPHONE 5 SLIDER WITH HAND -->
+            <div id="iphone5-handslider" class="white"><!-- Remove class for black version -->
+             <!-- BEGIN FLEXSLIDER -->
+              <div class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img src="uiKit/PNG/Home01copy.jpg" alt="slider">
+                  </li>
+                  <!--<li>
+                    <img src="images/slides/slide-5.jpg" alt="slider">
+                  </li>
+                  <li>
+                    <img src="images/slides/slide-6.jpg" alt="slider">
+                  </li>-->
+                  
+                </ul>
+              </div> <!-- END FLEXSLIDER -->
+              
+            
+              
+
+            </div><!-- END IPHONE 5 SLIDER WITH HAND -->
+          </div><!-- END SPAN6 -->
+          
+          
+          <div class="span6 animated fadeInRight delay3s">
+           <!-- BEGIN SLIDER DESCRIPTION -->
+            <div id="slider-description" class="round">
+          
+              <h2 id="catchPhrase">Of course you <b>like</b> music.<br>But do you <b>know</b> music?</h2>
+              
+              <p>Challenge your friends. <br>See who's the fan and who's the poser. <img id = "logo" src="images/logo.png" alt="logo"/></p>
+              
+              
+              <!-- <a class="download-btn applestore" href="#" align="center"></a>      -->
+              <!-- <a class="download-btn googleplay" href="#" align="center"></a>  -->
+               <!-- <div> -->
+            <!-- <p>Be the first to know about our launch:</p> -->
+            <!-- <input type="text" class="input-field" id="newsletter-name" name="newsletter-name" value="Enter your name"> -->
+            <div id="register-confirm">
+              <!-- <br><br><br><br> -->
+            </div>
+            <input type="text" class="input-field" id="newsletter-email" name="newsletter-email" placeholder="Enter your email">
+            <a id="button-newsletter" class="button" href="#" title="Subscribe now">Keep tabs on our launch</a>
+            <!-- <p id="register-confirmation">test test</p>             -->
+          </div>                     
+            </div><!-- END SLIDER DESCRIPTION -->
+           
+          </div><!-- END SPAN6 -->
+        </div><!-- END SLIDER CONTAINER -->
+      </div><!-- END ROW -->
+    </div><!-- END CONTAINER -->
+    
+  <div class="clear"></div>
+</header>
+<!-- END HEADER -->
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="span4">
+      
+      </div>
+      <!-- END SERVICE BOX -->
+      
+   </div>
+   
+  <div class="span4">
+      
+      </div>
+      <!-- END SERVICE BOX -->
+      
+      
+  </div>
+  
+  <div class="span4">
+      
+      </div>
+      <!-- END SERVICE BOX -->
+      
+      
+  </div>
+  
+ 
+    </div> <!-- END ROW -->
+  </div> <!-- END CONTAINER -->
+</section><!-- END SERVICE BOX SECTION -->
+
+          </div>
+          
+                  
+          <div class="span6">
+
+              </div> 
+
+              </div> 
+
+              </div> 
+              <!-- END SERVICE BOX TYPE LEFT -->    
+              
+              
+              <!-- BEGIN SERVICE BOX TYPE LEFT --
+              <div class="rnr-service-box-left">
+                  <!-- BEGIN SERVICE BOX TYPE LEFT ICON --
+                  <div class="rnr-service-box-icon">
+                    <img src="images/icons/flat-icons/9.png" alt="Build"></div>
+            
+                <div class="rnr-service-box-content">
+                <h3 class="rnr-service-box-title">Best Help and Support</h3>
+                <p>Phasellus ut vulputate erat. Morbi commodo interdum enim, nec mollis arcu. </p>
+                  </div>
+                  <!-- END SERVICE BOX TYPE LEFT CONTENT --> 
+              </div> 
+              <!-- END SERVICE BOX TYPE LEFT -->    
+              
+            
+           </div><!-- END FULLWIDTH TEXT CONTAINER -->  
+          </div><!-- END SPAN -->          
+
+        </div><!-- END ROW -->  
+      </div><!-- END CONTAINER -->            
+</section>
+<!-- END FULLWIDTH SECTION -->  
+
+
+<!-- BEGIN TESTIMONIAL ROTATOR --> 
+<section id="testimonial-rotator">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        
+        <!-- BEGIN TESTIMONIAL 1 --> 
+        <div class="testimonials">
+          <!-- BEGIN CLIENT IMAGE --> 
+          <div class="client-image">
+           <img src="images/team/review1.jpg" alt="client"/>
+          </div> 
+          <!-- END CLIENT IMAGE -->    
+
+          <!-- BEGIN CLIENT TESTIMONIAL 1-->                
+          <div class="client-testimonial">
+            <p>"The best *!$@^%!$ game on the planet."</p>
+            <cite>Mary Ann Birchbaum, Truck Driver</cite>
+          </div>  
+          <!-- END CLIENT TESTIMONIAL -->  
+                   
+        </div>
+        <!-- END TESTIMONIAL -->  
+        
+        
+        <!-- BEGIN TESTIMONIAL 2 --> 
+        <div class="testimonials">
+          <!-- BEGIN CLIENT IMAGE --> 
+          <div class="client-image">
+           <img src="images/team/review2.jpg" alt="client"/>
+          </div> 
+          <!-- END CLIENT IMAGE -->    
+
+          <!-- BEGIN CLIENT TESTIMONIAL 2 -->                
+          <div class="client-testimonial">
+            <p>"Wut dat song? That's hilarious!"</p>
+            <cite>Mike Smith, Butcher</cite>
+          </div>  
+          <!-- END CLIENT TESTIMONIAL -->  
+                   
+        </div>
+        <!-- END TESTIMONIAL -->  
+
+        <!-- BEGIN TESTIMONIAL 3--> 
+        <div class="testimonials">
+          <!-- BEGIN CLIENT IMAGE --> 
+          <div class="client-image">
+           <img src="images/team/review3.jpg" alt="client"/>
+          </div> 
+          <!-- END CLIENT IMAGE -->    
+
+          <!-- BEGIN CLIENT TESTIMONIAL 3-->                
+          <div class="client-testimonial">
+            <p>"And it's in real time! Amazing!"</p>
+            <cite>Merv Sanchez, CPA</cite>
+          </div>  
+          <!-- END CLIENT TESTIMONIAL -->  
+
+          <!-- BEGIN TESTIMONIAL 4--> 
+        <div class="testimonials">
+          <!-- BEGIN CLIENT IMAGE --> 
+          <div class="client-image">
+           <img src="images/team/review4.jpg" alt="client"/>
+          </div> 
+          <!-- END CLIENT IMAGE -->    
+
+          <!-- BEGIN CLIENT TESTIMONIAL 4-->                
+          <div class="client-testimonial">
+            <p>"I'm so hooked on datSong. The other day I started to cross the street while I was playing, and I almost got hit by a car.  Whoops!"</p>
+            <cite>Steve Powers, Finance</cite>
+          </div>  
+          <!-- END CLIENT TESTIMONIAL -->  
+
+          <!-- BEGIN TESTIMONIAL 5--> 
+        <div class="testimonials">
+          <!-- BEGIN CLIENT IMAGE --> 
+          <div class="client-image">
+           <img src="images/team/review5.jpg" alt="client"/>
+          </div> 
+          <!-- END CLIENT IMAGE -->    
+
+          <!-- BEGIN CLIENT TESTIMONIAL 5-->                
+          <div class="client-testimonial">
+            <p>"That guy is sooo lucky, I was this close to running him down with my Volvo."</p>
+            <cite>Jacob Bennington, PHD</cite>
+          </div>  
+          <!-- END CLIENT TESTIMONIAL -->  
+
+          <!-- BEGIN TESTIMONIAL 6--> 
+        <div class="testimonials">
+          <!-- BEGIN CLIENT IMAGE --> 
+          <div class="client-image">
+           <img src="images/team/review6.jpg" alt="client"/>
+          </div> 
+          <!-- END CLIENT IMAGE -->    
+
+          <!-- BEGIN CLIENT TESTIMONIAL 6-->                
+          <div class="client-testimonial">
+            <p>"Did I say it's in real time?"</p>
+            <cite>Sandy Samson, Meteorologist</cite>
+          </div>  
+          <!-- END CLIENT TESTIMONIAL -->  
+        
+        
+      </div><!-- END SPAN -->
+    </div><!-- END ROW -->
+  </div><!-- END CONTAINER -->
+</section><!-- END TESTIMONIAL SECTION -->
+
+<!-- BEGIN TEAM SECTION -->
+ <section class="about-team">
+        <div class="container">   
+            <div class="row"> 
+              <div class="span12"> 
+              
+              <!-- BEGIN FANCY HEADER -->
+               <div class="fancy-header">       
+                   <h4>Meet the Team</h4>
+                   <!--h2>Blurb?</h2-->
+              </div>
+              <!-- END FANCY HEADER-->
+              
+              <div class="teamAll">
+
+                <!-- BEGIN TEAM MEMBER -->   
+                <div class="team-member">
+                
+                  <!-- BEGIN TEAM IMAGE -->
+                  <div class="team-thumb">
+                    <img src="images/team/Tim.jpg" alt="team">
+                  </div>
+                  <!-- END TEAM IMAGE -->
+                  
+                  <!-- BEGIN TEAM DESCRIPTION -->
+                  <div class="team-desc">
+                    <h5>Tim<span> </h5>
+                    <!--h15>Founder &amp; CEO</h15></span-->
+                    <a href="http://twitter.com/texasjunkcat"><span class="follow-twitter"></span>@texasjunkcat</a>
+                  </div>     
+                  <!-- END TEAM DESCRIPTION -->   
+                  
+                </div>   
+                <!-- END TEAM MEMBER -->  
+                
+                </div>
+                <div class="teamAll">
+
+                <!-- BEGIN TEAM MEMBER -->  
+                <div class="team-member">
+                
+                  <!-- BEGIN TEAM IMAGE -->
+                  <div class="team-thumb">
+                    <img src="images/team/terence_biopic.jpg" alt="team">
+                  </div>
+                  <!-- END TEAM IMAGE -->
+                  
+                  <!-- BEGIN TEAM DESCRIPTION -->
+                  <div class="team-desc">
+                      <h5>Terence<span> </h5>
+                    <!--h15>Founder &amp; CEO</h15></span-->
+                    <a href="http://twitter.com/terence_io"><span class="follow-twitter"></span>@terence_io</a>
+                  </div>     
+                  <!-- END TEAM DESCRIPTION -->   
+                  
+                </div>   
+                <!-- END TEAM MEMBER -->  
+              </div>
+
+               <div class="teamAll">
+
+
+
+                <!-- BEGIN TEAM MEMBER -->
+                <div class="team-member">
+                
+                  <!-- BEGIN TEAM IMAGE -->
+                  <div class="team-thumb">
+                    <img src="images/team/ryan_biopic.jpg" alt="team">
+                  </div>
+                  <!-- END TEAM IMAGE -->
+                  
+                  <!-- BEGIN TEAM DESCRIPTION -->
+                  <div class="team-desc">
+                    <h5>Ryan<span> </h5>
+                    <!--h15>Founder &amp; CEO</h15></span-->
+                    <a href="http://twitter.com/rymagno"><span class="follow-twitter"></span>@rymagno</a>
+                  </div>     
+                  <!-- END TEAM DESCRIPTION -->   
+                  
+                </div>   
+                <!-- END TEAM MEMBER -->
+
+              </div>
+
+                <div class="teamAll">
+
+                <!-- BEGIN TEAM MEMBER -->   
+                <div class="team-member">
+                
+                  <!-- BEGIN TEAM IMAGE -->
+                  <div class="team-thumb">
+                    <img src="images/team/alexBioPic.jpg" alt="team">
+                  </div>
+                  <!-- END TEAM IMAGE -->
+                  
+                  <!-- BEGIN TEAM DESCRIPTION -->
+                  <div class="team-desc">
+                      <h5>Alex<span> </h5>
+                    <!--h15>Founder &amp; CEO</h15></span-->
+                    <a href="http://twitter.com/alexmwhite"><span class="follow-twitter"></span>@alexmwhite</a>
+                  </div>     
+                  <!-- END TEAM DESCRIPTION -->   
+                  
+                </div>   
+                <!-- END TEAM MEMBER -->  
+                
+                </div>
+
+               <div class="teamAll">
+
+                <!-- BEGIN TEAM MEMBER -->   
+                <div class="team-member">
+                
+                  <!-- BEGIN TEAM IMAGE -->
+                  <div class="team-thumb">
+                    <img src="images/team/emily_biopic.jpg" alt="team">
+                  </div>
+                  <!-- END TEAM IMAGE -->
+                  
+                  <!-- BEGIN TEAM DESCRIPTION -->
+                  <div class="team-desc">
+                    <h5>Emily<span> </h5>
+                    <!--h15>Founder &amp; CEO</h15></span-->
+                    <a href="http://twitter.com/emilyhosoya"><span class="follow-twitter"></span>@emilyhosoya</a>
+                  </div>     
+                  <!-- END TEAM DESCRIPTION -->   
+                  
+                </div>   
+                <!-- END TEAM MEMBER -->  
+                
+                </div>
+                
+              
+              </div><!-- END SPAN -->
+            </div><!-- END ROW --    >
+     
+    </div><!-- END CONTAINER --   >
+  </section>
+  <!-- END TEAM SECTION --  >
+
+
+<footer>
+
+<!-- BEGIN TWITTER FEED -->
+<section id="twitter-feed">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <div id="twitter_wrap">
+          <div id="tweet"></div>
+          <a class="twitter-timeline" href="https://twitter.com/search?q=%23datSong" data-widget-id="439869237780156417">Tweets about "#datSong"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END TWITTER FEED -->
+
+<!-- BEGIN COPYRIGHT SECTION -->
+<section class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+              <!-- BEGIN FOOTER LOGO -->
+              <div id="logo">
+                <p><a href="" class="logo"><img src="images/logo.png" alt="logo"/></a>
+              </div>  
+              <!-- END FOOTER LOGO --  
+                    
+              <p class="copyright-left">Purchase on <a href="http://themeforest.net/user/RockNRollaDesigns/portfolio" target="_blank">Themeforest</a>.</p>
+              
+              <!-- BEGIN FOOTER MENU -->              
+             <!--div class="copyright-right">
+                <ul class="footer-menu">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Press</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Developers</a></li>                           
+                </ul>
+              </div>
+              <!-- END FOOTER MENU -->
+              
+        </div><!-- END SPAN -->
+      </div><!-- END ROW -->
+    </div><!-- END CONTAINER -->
+  <div class="clear"></div>
+</section><!-- END COPYRIGHT SECTION -->
+</footer><!-- END FOOTER -->
+
+<!-- JAVASCRIPTS -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script><!-- jQuery main file -->
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="js/jquery.flexslider.js" type="text/javascript"></script>
+<script src="js/jquery.quovolver.js" type="text/javascript"></script>
+<script src="js/jquery.tweet.js" type="text/javascript"></script>
+<script src="js/jquery.form.js" type="text/javascript"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
+
+<!-- LightBox FancyBox Stuff -->
+<!-- Add fancyBox main JS and CSS files -->
+ <script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+ <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+<!-- Add Button helper (this is optional) -->
+<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+<!-- Add Thumbnail helper (this is optional) -->
+<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<script type="text/javascript">
+  
+  $(document).ready(init);
+
+  function init() {
+    $('#button-newsletter').on('click', registerUser);
+    $('#newsletter-email').bind('enterKey', registerUser);
+
+    $('#newsletter-email').keyup(function(e){
+    if(e.keyCode == 13)
+    {
+        if ($('#newsletter-email').val() != '') {
+          $(this).trigger("enterKey");
+        }
+    }
+  })
+
+    $('#register-confirm').css({"opacity": 0});
+
+    $("#loginLink").fancybox({
+        'scrolling'   : 'no',
+        'titleShow'   : false,
+        'onClosed'    : function() {
+            $("#login_error").hide();
+        }
+        });
+
+     setUpLightBox();
+
+
+  }
+  
+  function registerUser() {
+    $.ajax({
+      url: "cloud/beta.php",
+      data: {
+        email: $('#newsletter-email').val()
+      },
+
+      complete: finish
+    });
+
+    $('#newsletter-email').val('');
+  }
+
+  function finish(response) {
+    // alert(response.responseText);
+    // $('#newsletter-email').attr('placeholder', response.responseText);
+    $('#register-confirm').css({"background-color": "darkturquoise"}).html("<b>" + response.responseText + "</b>").fadeTo(500, 0.7).delay(3000).fadeTo(500,0);
+  }
+
+  function setUpLightBox()
+  {
+    $("#login_form").bind("submit", function() {
+
+     if ($("#login_name").val().length < 1 || $("#login_pass").val().length < 1) {
+         $("#login_error").show();
+         $.fancybox.resize();
+         return false;
+     }
+    
+     // $.fancybox.showActivity();
+    
+     $.ajax({
+       type    : "POST",
+       cache : false,
+       url   : "cloud/login.php",
+       data    : {
+        email: $('#login_name').val(),
+        password: $('#login_pass').val()
+      },
+       success: function(data) {
+        console.log("WHATWHAT");
+         alert(data);
+       }
+  });
+
+  return false;
+  });
+}
+
+
+</script>
+
+</body>
+</html>
